@@ -5,22 +5,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Taina's CS Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>👩🏽‍💻 Taina's CS Legacy Portfolio</h1>
-    <p>Welcome to my final Computer Science project!</p>
-  </header>
+  <nav>
+    <div class="nav-content">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </div>
+  </nav>
 
-  <main>
-    <section id="about">
-      <h2>🌟 About Me</h2>
-      <p>Hi! I'm Taina, a senior at IN-Tech Academy. This site shows my favorite CS projects and advice for future students.</p>
-    </section>
-  </main>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>👩🏽‍💻 Taina's CS Journey</h1>
+      <p class="subtitle">Exploring the world of Computer Science</p>
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Hi! I'm Taina, a senior at IN-Tech Academy passionate about Computer Science and technology. My journey in CS has been an exciting exploration of problem-solving and creativity.</p>
+          
+          <h3>My CS Journey</h3>
+          <p>I chose Computer Science because [Your reason here]. Throughout my high school years, my perspective on CS has evolved from [initial thoughts] to [current understanding].</p>
+          
+          <h3>Future Plans</h3>
+          <p>After graduation, I plan to [Your plans here]. I'm excited to continue learning and growing in the field of technology.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>The Walking Dead Game App</h3>
+          <p class="project-description">An interactive game application inspired by The Walking Dead series, where players make choices that affect the storyline and character outcomes.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+          <div class="project-learned">
+            <h4>What I Learned:</h4>
+            <p>Developed skills in creating interactive narratives, implementing user choice systems, and managing game state. Learned how to create engaging user experiences through branching storylines.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Bridgerton Quiz</h3>
+          <p class="project-description">An interactive quiz application themed around the popular Bridgerton series, testing fans' knowledge of the show's characters, plotlines, and historical context.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+          <div class="project-learned">
+            <h4>What I Learned:</h4>
+            <p>Gained experience in creating interactive quiz systems, implementing scoring mechanisms, and designing user-friendly interfaces. Learned how to make learning fun through gamification.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Frank Ocean Fan Page</h3>
+          <p class="project-description">A dedicated fan page celebrating Frank Ocean's music and artistic journey, featuring his discography, biography, and notable achievements.</p>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span>
+            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">JavaScript</span>
+          </div>
+          <div class="project-learned">
+            <h4>What I Learned:</h4>
+            <p>Developed skills in creating visually appealing layouts, implementing responsive design, and organizing content effectively. Learned how to create engaging fan-focused content while maintaining professional web development standards.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer>
-    <p>📫 GitHub: <a href="https://github.com/taina7" target="_blank">taina7</a></p>
+    <div class="container">
+      <div class="social-links">
+        <a href="https://github.com/taina7" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p>© 2024 Taina's CS Portfolio</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
